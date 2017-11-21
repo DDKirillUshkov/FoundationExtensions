@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8C72DCA1FC4781E008DB9C9 /* FoundationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C72DC91FC4781E008DB9C9 /* FoundationExtensions.m */; };
-		E8C72DCB1FC4781E008DB9C9 /* FoundationExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8C72DC81FC4781E008DB9C9 /* FoundationExtensions.h */; };
+		E8A1B0441FC48FFE004BD5A7 /* NSURL+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B0431FC48FFD004BD5A7 /* NSURL+Directories.m */; };
+		E8A1B0461FC490A6004BD5A7 /* NSURLExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B0451FC490A6004BD5A7 /* NSURLExtensionTests.m */; };
+		E8A1B0471FC49164004BD5A7 /* NSURL+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B0431FC48FFD004BD5A7 /* NSURL+Directories.m */; };
+		E8A1B04C1FC4A333004BD5A7 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B04B1FC4A333004BD5A7 /* NSString+Validation.m */; };
+		E8A1B04E1FC4A36F004BD5A7 /* NSStringExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B04D1FC4A36F004BD5A7 /* NSStringExtensionsTests.m */; };
+		E8A1B0511FC4A39C004BD5A7 /* EmailTests.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A1B0501FC4A39C004BD5A7 /* EmailTests.plist */; };
+		E8A1B0521FC4A5EF004BD5A7 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1B04B1FC4A333004BD5A7 /* NSString+Validation.m */; };
+		E8C72DDA1FC47841008DB9C9 /* libFoundationExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C72DC51FC4781E008DB9C9 /* libFoundationExtensions.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8C72DDB1FC47841008DB9C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8C72DBD1FC4781E008DB9C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8C72DC41FC4781E008DB9C9;
+			remoteInfo = FoundationExtensions;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E8C72DC31FC4781E008DB9C9 /* CopyFiles */ = {
@@ -18,16 +34,22 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E8C72DCB1FC4781E008DB9C9 /* FoundationExtensions.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E8A1B0421FC48FFD004BD5A7 /* NSURL+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Directories.h"; sourceTree = "<group>"; };
+		E8A1B0431FC48FFD004BD5A7 /* NSURL+Directories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Directories.m"; sourceTree = "<group>"; };
+		E8A1B0451FC490A6004BD5A7 /* NSURLExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLExtensionTests.m; sourceTree = "<group>"; };
+		E8A1B04A1FC4A333004BD5A7 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		E8A1B04B1FC4A333004BD5A7 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		E8A1B04D1FC4A36F004BD5A7 /* NSStringExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensionsTests.m; sourceTree = "<group>"; };
+		E8A1B0501FC4A39C004BD5A7 /* EmailTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmailTests.plist; sourceTree = "<group>"; };
 		E8C72DC51FC4781E008DB9C9 /* libFoundationExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoundationExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8C72DC81FC4781E008DB9C9 /* FoundationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationExtensions.h; sourceTree = "<group>"; };
-		E8C72DC91FC4781E008DB9C9 /* FoundationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundationExtensions.m; sourceTree = "<group>"; };
+		E8C72DD51FC47841008DB9C9 /* FoundationExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C72DD91FC47841008DB9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +60,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8C72DD21FC47841008DB9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C72DDA1FC47841008DB9C9 /* libFoundationExtensions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8A1B0411FC48FFD004BD5A7 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1B0421FC48FFD004BD5A7 /* NSURL+Directories.h */,
+				E8A1B0431FC48FFD004BD5A7 /* NSURL+Directories.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		E8A1B0481FC4A317004BD5A7 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1B0491FC4A325004BD5A7 /* Validation */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		E8A1B0491FC4A325004BD5A7 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1B04A1FC4A333004BD5A7 /* NSString+Validation.h */,
+				E8A1B04B1FC4A333004BD5A7 /* NSString+Validation.m */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		E8A1B04F1FC4A37C004BD5A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1B0501FC4A39C004BD5A7 /* EmailTests.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E8C72DBC1FC4781E008DB9C9 = {
 			isa = PBXGroup;
 			children = (
 				E8C72DC71FC4781E008DB9C9 /* FoundationExtensions */,
+				E8C72DD61FC47841008DB9C9 /* FoundationExtensionsTests */,
 				E8C72DC61FC4781E008DB9C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E8C72DC51FC4781E008DB9C9 /* libFoundationExtensions.a */,
+				E8C72DD51FC47841008DB9C9 /* FoundationExtensionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,10 +126,21 @@
 		E8C72DC71FC4781E008DB9C9 /* FoundationExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				E8C72DC81FC4781E008DB9C9 /* FoundationExtensions.h */,
-				E8C72DC91FC4781E008DB9C9 /* FoundationExtensions.m */,
+				E8A1B0481FC4A317004BD5A7 /* NSString */,
+				E8A1B0411FC48FFD004BD5A7 /* NSURL */,
 			);
 			path = FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		E8C72DD61FC47841008DB9C9 /* FoundationExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1B04F1FC4A37C004BD5A7 /* Resources */,
+				E8C72DD91FC47841008DB9C9 /* Info.plist */,
+				E8A1B0451FC490A6004BD5A7 /* NSURLExtensionTests.m */,
+				E8A1B04D1FC4A36F004BD5A7 /* NSStringExtensionsTests.m */,
+			);
+			path = FoundationExtensionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +163,24 @@
 			productReference = E8C72DC51FC4781E008DB9C9 /* libFoundationExtensions.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E8C72DD41FC47841008DB9C9 /* FoundationExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C72DDD1FC47841008DB9C9 /* Build configuration list for PBXNativeTarget "FoundationExtensionsTests" */;
+			buildPhases = (
+				E8C72DD11FC47841008DB9C9 /* Sources */,
+				E8C72DD21FC47841008DB9C9 /* Frameworks */,
+				E8C72DD31FC47841008DB9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8C72DDC1FC47841008DB9C9 /* PBXTargetDependency */,
+			);
+			name = FoundationExtensionsTests;
+			productName = FoundationExtensionsTests;
+			productReference = E8C72DD51FC47841008DB9C9 /* FoundationExtensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +191,10 @@
 				ORGANIZATIONNAME = itomy.ch;
 				TargetAttributes = {
 					E8C72DC41FC4781E008DB9C9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E8C72DD41FC47841008DB9C9 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,20 +213,52 @@
 			projectRoot = "";
 			targets = (
 				E8C72DC41FC4781E008DB9C9 /* FoundationExtensions */,
+				E8C72DD41FC47841008DB9C9 /* FoundationExtensionsTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8C72DD31FC47841008DB9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1B0511FC4A39C004BD5A7 /* EmailTests.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8C72DC11FC4781E008DB9C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C72DCA1FC4781E008DB9C9 /* FoundationExtensions.m in Sources */,
+				E8A1B04C1FC4A333004BD5A7 /* NSString+Validation.m in Sources */,
+				E8A1B0441FC48FFE004BD5A7 /* NSURL+Directories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C72DD11FC47841008DB9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1B0471FC49164004BD5A7 /* NSURL+Directories.m in Sources */,
+				E8A1B0461FC490A6004BD5A7 /* NSURLExtensionTests.m in Sources */,
+				E8A1B0521FC4A5EF004BD5A7 /* NSString+Validation.m in Sources */,
+				E8A1B04E1FC4A36F004BD5A7 /* NSStringExtensionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8C72DDC1FC47841008DB9C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8C72DC41FC4781E008DB9C9 /* FoundationExtensions */;
+			targetProxy = E8C72DDB1FC47841008DB9C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E8C72DCC1FC4781E008DB9C9 /* Debug */ = {
@@ -178,9 +309,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -227,8 +359,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -238,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,9 +382,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8C72DDE1FC47841008DB9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoundationExtensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itomy.ch.FoundationExtensionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8C72DDF1FC47841008DB9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoundationExtensionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itomy.ch.FoundationExtensionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -273,6 +432,15 @@
 			buildConfigurations = (
 				E8C72DCF1FC4781E008DB9C9 /* Debug */,
 				E8C72DD01FC4781E008DB9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C72DDD1FC47841008DB9C9 /* Build configuration list for PBXNativeTarget "FoundationExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C72DDE1FC47841008DB9C9 /* Debug */,
+				E8C72DDF1FC47841008DB9C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
